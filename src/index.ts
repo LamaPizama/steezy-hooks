@@ -1,5 +1,1 @@
-import createStylesHook, { css } from './lib';
-
-export { css };
-
-export default createStylesHook;
+export * from './lib/createStylesHook';

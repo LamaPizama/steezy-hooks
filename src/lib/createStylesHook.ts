@@ -58,3 +58,5 @@ export const createStylesHook =
                 {}
             ) as Record<keyof T, { style: React.CSSProperties }>;
     };
+
+export default createStylesHook;
